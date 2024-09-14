@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="DESKTOP-MLC2G70.HouseSales"
+  DTS:DTSID="{EFBF01A0-00B8-4892-B5DD-CBD5DA735693}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=DESKTOP-MLC2G70;Initial Catalog=HouseSales;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-HouseSales-{EFBF01A0-00B8-4892-B5DD-CBD5DA735693}DESKTOP-MLC2G70.HouseSales;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
